@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bkgroundcss {
+  background-image: url("/images/background2.png");
+  background-size: 100vw 100vh;
+}
+
+.bkground {
+  @apply bg-[url('/images/online-cv-background.jpeg')];
+}
+
+.main-container {
+  @apply w-11/12 bg-gray-700/80 rounded-2xl my-2 md:my-4;
+}
+
+.main-section {
+  @apply flex flex-col md:flex-row items-center text-white p-3;
+}
+
+.cv-card {
+  @apply bg-slate-400/40 text-white font-medium p-2 px-3 rounded-lg;
+}
+
+/* animations */
+
+.hover-animation-spin:hover {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover-animation-ping:hover {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+.hover-animation-bounce:hover {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
