@@ -21,16 +21,20 @@ function ExperienceCard({
   ...props
 }: Job) {
   return (
-    <div>
-      <h6>{company}</h6>
-      <p>
-        {yearfrom} - {yearto}
-      </p>
-      <p>{title}</p>
-      <p>{description}</p>
-      {achievements.map((item, index) => {
-        return <p key={index}>{item}</p>;
-      })}
+    <div className="my-2 p-3 rounded-xl bg-blue-950/20">
+      <h6>
+        {company}
+        <span className="text-xs font-thin pl-2">
+          {yearfrom} - {yearto}
+        </span>
+      </h6>
+      <p className="font-thin pl-2">{title}</p>
+      <p className="py-3">{description}</p>
+      <ul className="font-thin p-2">
+        {achievements.map((item, index) => {
+          return <li key={index}>⫸ {item}</li>;
+        })}
+      </ul>
     </div>
   );
 }
@@ -44,20 +48,20 @@ function Experience() {
 
     response
       .then((data) => {
-        // const formattedData = formatExperienceData(data);
-        setExperienceData(data);
+        const formattedData: Array<Job> = formatExperienceData(data);
+        setExperienceData(formattedData);
       })
       .catch((error) => {
         setError(error);
       });
   }, []);
 
-  //console.log("after the fetch:", experienceData);
-
   return (
-    <div className="cv-card md:col-span-4">
-      <h3 className=" font-semibold text-lg text-blue-800">Experience</h3>
-      {experienceData.map((job, index: number) => (
+    <div className="order-3 cv-card w-96 md:w-full md:col-span-4">
+      <h3 className="font-bold text-center text-2xl text-blue-900">
+        Experience
+      </h3>
+      {experienceData.map((job: Job, index: number) => (
         <ExperienceCard
           key={index}
           company={job.company}
@@ -73,7 +77,3 @@ function Experience() {
 }
 
 export default Experience;
-
-// const formattedData = formatExperienceData(data);
-// console.log("testing123:", formattedData);
-// ("");

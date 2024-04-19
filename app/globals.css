@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bkgroundcss {
-  background-image: url("/images/background2.png");
+  background-image: url("/images/background.png");
   background-size: 100vw 100vh;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .main-container {
-  @apply w-11/12 bg-gray-700/80 rounded-2xl my-2 md:my-4;
+  @apply w-11/12 bg-gray-700/80 rounded-2xl my-2 md:my-4 md:w-3/4;
 }
 
 .main-section {
@@ -20,7 +20,7 @@
 }
 
 .cv-card {
-  @apply bg-slate-400/40 text-white font-medium p-2 px-3 rounded-lg;
+  @apply bg-slate-400/60 text-white font-medium p-2 px-3 rounded-lg;
 }
 
 /* animations */

@@ -1,7 +1,7 @@
+"use client";
 import { formatProjectData } from "@/app/lib/formatProjectData";
 import { getProjectData } from "@/app/lib/getProjectsData";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 
 type CodingProject = {
   title: string;
@@ -20,25 +20,16 @@ function ProjectCard({
   ...props
 }: CodingProject) {
   return (
-    <Link href={githublink}>
-      <div className="flex flex-col my-3 md:gap-3 p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40">
-        <h3 className="font-bold text-lg">{title}</h3>
-        <p className="pl-3 font-light text-xs text-pretty truncate">
-          {githublink}
-        </p>
-        <ul className="grid grid-cols-2">
-          {techstack.map((data, index: number) => (
-            <li className="font-light text-xs" key={index}>
-              ⫸ {data}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </Link>
+    <div>
+      <h4>{title}</h4>
+      <p>{githublink}</p>
+      <p>{order}</p>
+      <p>{description}</p>
+    </div>
   );
 }
 
-function Projects() {
+function PortfolioBoard() {
   const [projectsData, setProjectsData] = useState(Array<CodingProject>);
   const [error, setError] = useState("");
 
@@ -57,12 +48,9 @@ function Projects() {
 
   return (
     <div>
-      <h5 className="font-bold text-center text-2xl text-blue-900 md:mt-8">
-        Projects
-      </h5>
+      <h4>Hello Project Board</h4>
       {projectsData.map((project: CodingProject, index: number) => (
         <ProjectCard
-          key={index}
           title={project.title}
           githublink={project.githublink}
           techstack={project.techstack}
@@ -74,4 +62,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default PortfolioBoard;

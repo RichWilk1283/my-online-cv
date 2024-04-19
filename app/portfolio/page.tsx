@@ -1,11 +1,13 @@
-import React from 'react'
+import PortfolioBoard from "@/components/portfoliopage/PortfolioBoard";
+import React from "react";
 
 function portfolio() {
   return (
-    <main>
+    <div className=" text-white">
       <h1>Portfolio page</h1>
-    </main>
-  )
+      <PortfolioBoard />
+    </div>
+  );
 }
 
-export default portfolio
+export default portfolio;
