@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-      domains: ["cloud.appwrite.io","fontawesome.com"],
+    remotePatterns: [
+      { hostname: "cloud.appwrite.io" },
+      { hostname: "fontawesome.com" },
+    ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
