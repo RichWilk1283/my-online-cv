@@ -61,5 +61,16 @@ function PortfolioBoard() {
     </div>
   );
 }
+// return (
+//   <div>
+//     <h4>Hello Project Board</h4>
+//     {projectsData.map((project: CodingProject, index: number) => (
+//       <ProjectCard
+//         thisProject={project}
+//       />
+//     ))}
+//   </div>
+// );
+// }
 
 export default PortfolioBoard;
