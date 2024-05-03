@@ -1,12 +1,12 @@
 import PortfolioBoard from "@/components/portfoliopage/PortfolioBoard";
-import React from "react";
 
 function portfolio() {
   return (
-    <div className=" text-white">
-      <h1>Portfolio page</h1>
+    <main className="flex flex-col items-center">
+      <h1 className="text-2xl font-bold">Portfolio page</h1>
+      <p>Add some words here about the page contents.</p>
       <PortfolioBoard />
-    </div>
+    </main>
   );
 }
 

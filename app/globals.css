@@ -31,6 +31,10 @@
   @apply text-gray-300 text-2xl font-bold pt-3;
 }
 
+.portfolio-card {
+  @apply flex flex-col items-center;
+}
+
 /* animations */
 
 .hover-animation-spin:hover {

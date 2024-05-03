@@ -4,6 +4,7 @@ type CodingProject = {
   techstack: string[];
   order: number;
   description: string;
+  images: string[];
 };
 
 export const formatProjectData = (fetchedData: any) => {
@@ -16,6 +17,7 @@ export const formatProjectData = (fetchedData: any) => {
       techstack: data.techstack,
       order: data.order,
       description: data.description,
+      images: data.images,
     };
     formattedData.push(project);
   });

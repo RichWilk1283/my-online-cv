@@ -9,6 +9,7 @@ type CodingProject = {
   techstack: string[];
   order: number;
   description: string;
+  images: string[];
 };
 
 function ProjectCard({
@@ -17,10 +18,11 @@ function ProjectCard({
   techstack,
   order,
   description,
+  images,
   ...props
 }: CodingProject) {
   return (
-    <Link href={githublink}>
+    <Link href={githublink} target="_blank">
       <div className="flex flex-col my-3 md:gap-3 p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40">
         <h3 className="font-bold text-lg">{title}</h3>
         <p className="pl-3 font-light text-xs text-pretty truncate">
@@ -68,6 +70,7 @@ function Projects() {
           techstack={project.techstack}
           order={project.order}
           description={project.description}
+          images={project.images}
         />
       ))}
     </div>

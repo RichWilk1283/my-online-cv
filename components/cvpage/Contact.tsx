@@ -15,11 +15,16 @@ function Contact() {
         <a
           className="pl-3"
           href="https://www.linkedin.com/in/richard-wilkinson1283/"
+          target="_blank"
         >
           https://www.linkedin.com/in/richard-wilkinson1283/
         </a>
         <p className="font-thin">GitHub</p>
-        <a className="pl-3" href=" https://github.com/RichWilk1283">
+        <a
+          className="pl-3"
+          href=" https://github.com/RichWilk1283"
+          target="_blank"
+        >
           https://github.com/RichWilk1283i
         </a>
       </div>
