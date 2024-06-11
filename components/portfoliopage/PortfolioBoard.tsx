@@ -39,25 +39,32 @@ function ProjectCard({
   }, []);
 
   return (
-    <div className="w-11/12 p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40 my-3">
-      <Link href={githublink} target="_blank">
-        <p className="font-bold">{title}</p>
-        <ul className="grid grid-cols-2">
-          {techstack.map((data, index: number) => (
-            <li className="font-light text-xs" key={index}>
-              ⫸ {data}
-            </li>
-          ))}
-        </ul>
-        <p className="font-thin my-2">{description}</p>
-        <div className="grid grid-cols-2 gap-1 justify-items-center">
+    <div className="w-11/12 md:h-full p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40 my-3">
+      <Link
+        href={githublink}
+        target="_blank"
+        className="flex flex-col h-full justify-between"
+      >
+        <div>
+          <p className="font-bold">{title}</p>
+          <ul className="grid grid-cols-2">
+            {techstack.map((data, index: number) => (
+              <li className="font-light text-xs" key={index}>
+                ⫸ {data}
+              </li>
+            ))}
+          </ul>
+          <p className="font-thin my-2">{description}</p>
+        </div>
+        <div className="grid grid-cols-2 gap-2">
           {imageURLS.map((imgUrl: string, index: number) => (
             <Image
+              key={index}
               src={imgUrl}
               alt="thumbnail image of a coding project I have created."
               width={300}
               height={300}
-              className="rounded-2xl"
+              className="rounded-xl w-auto h-auto"
             />
           ))}
         </div>
@@ -86,9 +93,8 @@ function PortfolioBoard() {
   return (
     <div className="main-container md:grid md:grid-cols-2">
       {projectsData.map((project: CodingProject, index: number) => (
-        <div className="portfolio-card">
+        <div className="portfolio-card" key={index}>
           <ProjectCard
-            key={index}
             title={project.title}
             githublink={project.githublink}
             techstack={project.techstack}

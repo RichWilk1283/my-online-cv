@@ -57,7 +57,7 @@ function Experience() {
   }, []);
 
   return (
-    <div className="order-3 cv-card w-96 md:w-full md:col-span-4">
+    <div className="order-3 cv-card w-96 md:w-full md:h-full md:col-span-4">
       <h3 className="font-bold text-center text-2xl text-blue-900">
         Experience
       </h3>

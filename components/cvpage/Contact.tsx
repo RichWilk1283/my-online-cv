@@ -25,7 +25,7 @@ function Contact() {
           href=" https://github.com/RichWilk1283"
           target="_blank"
         >
-          https://github.com/RichWilk1283i
+          https://github.com/RichWilk1283
         </a>
       </div>
     </div>

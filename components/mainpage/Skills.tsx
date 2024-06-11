@@ -11,7 +11,7 @@ function Skills() {
           </p>
           <div className="flex flex-col md:grid md:grid-cols-2 text-center my-4 gap-3">
             <div>
-              <h4 className="font-bold">Technical Skills:</h4>
+              <h4 className="font-bold text-lg">Technical Skills:</h4>
               <ul>
                 <li>C# & ASP.NET</li>
                 <li>Php & Laravel</li>
@@ -20,15 +20,16 @@ function Skills() {
                 <li>HTML</li>
                 <li>CSS (inc. Tailwind and Bootstrap5)</li>
                 <li>Visual Studio Code & Visual Studio 2022</li>
-                <li>MicroSoft: Word and Excel</li>
+                <li>Microsoft: Word and Excel</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold">Soft Skills:</h4>
+              <h4 className="font-bold text-lg">Soft Skills:</h4>
               <ul>
                 <li>Excellent communication</li>
                 <li>First rate customer service</li>
                 <li>Pro-active thinker</li>
+                <li>Problem Solver</li>
                 <li>Team player</li>
                 <li>Self driven</li>
                 <li>Hard working ethic</li>

@@ -32,7 +32,7 @@ function NavBar() {
         </Link>
         <Link
           className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold"
-          href="/portfolio"
+          href="/mostproud"
         >
           <li>Most Proud</li>
         </Link>
@@ -75,7 +75,7 @@ function NavBar() {
             </Link>
             <Link
               className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2"
-              href="/portfolio"
+              href="/mostproud"
             >
               <li>Most Proud</li>
             </Link>

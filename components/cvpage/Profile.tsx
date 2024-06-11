@@ -2,7 +2,7 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="order-1 md:order-2 flex flex-col cv-card w-96 md:w-full md:col-span-4">
+    <div className="order-1 md:order-2 flex flex-col cv-card w-96 md:w-full md:h-full md:col-span-4 justify-center">
       <div className="my-4 md:mx-3 space-y-5">
         <p>
           Enthusiastic, curious and full of transferable skills, passionate

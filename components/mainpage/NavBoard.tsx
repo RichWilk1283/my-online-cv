@@ -16,8 +16,8 @@ function NavCard({ title, link, image }: Props) {
         <Image
           src={image}
           alt="Background image for the navigation link"
-          width={300}
-          height={300}
+          width={400}
+          height={400}
           className="rounded-b-2xl"
         />
       </Link>
@@ -36,7 +36,7 @@ function NavBoard() {
       />
       <NavCard
         title="Most Proud"
-        link="portfolio"
+        link="mostproud"
         image="/images/rosette.jpeg"
       />
       <NavCard
@@ -44,16 +44,6 @@ function NavBoard() {
         link="myresources"
         image="/images/resourcespicture.jpeg"
       />
-      {/* <NavCard
-        title="Portfolio"
-        link="portfolio"
-        image="/images/background.png"
-      />
-      <NavCard
-        title="Portfolio"
-        link="portfolio"
-        image="/images/background.png"
-      /> */}
     </div>
   );
 }

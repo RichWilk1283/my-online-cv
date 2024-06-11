@@ -35,6 +35,10 @@
   @apply flex flex-col items-center;
 }
 
+.proudof-card {
+  @apply flex flex-col items-center my-4;
+}
+
 /* animations */
 
 .hover-animation-spin:hover {
