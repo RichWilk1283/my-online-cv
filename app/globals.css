@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.bkgroundcss {
+.bkgroundimg {
   background-image: url("/images/background.png");
   background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 
-.bkground {
-  @apply bg-[url('/images/online-cv-background.jpeg')];
+.navbarlink {
+  @apply bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold hover:bg-slate-200/10;
+}
+
+.navbarlinkmenu {
+  @apply bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2;
 }
 
 .main-container {

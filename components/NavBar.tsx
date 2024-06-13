@@ -15,31 +15,19 @@ function NavBar() {
       <ul className="hidden sm:flex gap-2 py-1 mr-4">
         <Link href="/">
           <li>
-            <HomeIcon className="h-6 w-6 text-white" />
+            <HomeIcon className="h-6 w-6 text-white hover:text-blue-200" />
           </li>
         </Link>
-        <Link
-          className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold"
-          href="/cv"
-        >
+        <Link className="navbarlink" href="/cv">
           <li>CV</li>
         </Link>
-        <Link
-          className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold"
-          href="/portfolio"
-        >
+        <Link className="navbarlink" href="/portfolio">
           <li>Portfolio</li>
         </Link>
-        <Link
-          className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold"
-          href="/mostproud"
-        >
+        <Link className="navbarlink" href="/mostproud">
           <li>Most Proud</li>
         </Link>
-        <Link
-          className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold"
-          href="/myresources"
-        >
+        <Link className="navbarlink" href="/myresources">
           <li>Resources</li>
         </Link>
       </ul>
@@ -61,28 +49,16 @@ function NavBar() {
                 <HomeIcon className="h-12 w-12 text-white" />
               </li>
             </Link>
-            <Link
-              className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2"
-              href="/cv"
-            >
+            <Link className="navbarlinkmenu" href="/cv">
               <li>CV</li>
             </Link>
-            <Link
-              className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2"
-              href="/portfolio"
-            >
+            <Link className="navbarlinkmenu" href="/portfolio">
               <li>Portfolio</li>
             </Link>
-            <Link
-              className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2"
-              href="/mostproud"
-            >
+            <Link className="navbarlinkmenu" href="/mostproud">
               <li>Most Proud</li>
             </Link>
-            <Link
-              className="bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold text-2xl w-1/2"
-              href="/myresources"
-            >
+            <Link className="navbarlinkmenu" href="/myresources">
               <li>Resources</li>
             </Link>
           </ul>

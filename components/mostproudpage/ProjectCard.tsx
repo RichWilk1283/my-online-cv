@@ -45,7 +45,7 @@ function ProjectCard() {
   return (
     <div className="proudof-card">
       <h3 className="font-bold">My most proud of project:</h3>
-      <p className="font-light w-1/2">
+      <p className="font-light w-11/12 lg:w-1/2">
         My final project for the Code: Cumbria boot camp course, marked a key
         moment for me. Prior to the boot camp, I had committed a lot of time to
         learning under my own direction and practicing with little projects

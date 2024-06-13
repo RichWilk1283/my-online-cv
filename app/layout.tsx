@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={montserrat.className}>
-      <body className="bkgroundcss h-screen">
+      <body className="bkgroundimg">
         <TitleBar />
         <main className="flex-grow text-white">{children}</main>
         <Footer />
