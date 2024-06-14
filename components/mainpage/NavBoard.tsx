@@ -1,11 +1,15 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
+import cvOnDesk from "@/public/images/cvondesk.jpeg";
+import manAtComputer from "@/public/images/manatcomputer.jpeg";
+import rosette from "@/public/images/rosette.jpeg";
+import resourcePicture from "@/public/images/resourcespicture.jpeg";
 
 type Props = {
   title: string;
   link: string;
-  image: string;
+  image: StaticImageData;
 };
 
 function NavCard({ title, link, image }: Props) {
@@ -14,7 +18,7 @@ function NavCard({ title, link, image }: Props) {
       <Link href={`/${link}`} className="flex flex-col items-center text-white">
         <h4 className=" text-xl font-bold">{title}</h4>
         <Image
-          src={image}
+          src={image.src}
           alt="Background image for the navigation link"
           width={400}
           height={400}
@@ -28,22 +32,10 @@ function NavCard({ title, link, image }: Props) {
 function NavBoard() {
   return (
     <div className="grid grid-cols-2 justify-items-center">
-      <NavCard title="CV" link="cv" image="/images/cvondesk.jpeg" />
-      <NavCard
-        title="Portfolio"
-        link="portfolio"
-        image="/images/manatcomputer.jpeg"
-      />
-      <NavCard
-        title="Most Proud"
-        link="mostproud"
-        image="/images/rosette.jpeg"
-      />
-      <NavCard
-        title="Resources"
-        link="myresources"
-        image="/images/resourcespicture.jpeg"
-      />
+      <NavCard title="CV" link="cv" image={cvOnDesk} />
+      <NavCard title="Portfolio" link="portfolio" image={manAtComputer} />
+      <NavCard title="Most Proud" link="mostproud" image={rosette} />
+      <NavCard title="Resources" link="myresources" image={resourcePicture} />
     </div>
   );
 }
