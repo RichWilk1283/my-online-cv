@@ -13,13 +13,13 @@ function Skills() {
             <div>
               <h4 className="font-bold text-lg">Technical Skills:</h4>
               <ul>
-                <li>C# & ASP.NET</li>
-                <li>Php & Laravel</li>
+                <li>C# &amp; ASP.NET</li>
+                <li>Php &amp; Laravel</li>
                 <li>JavaScript/ TypeScript</li>
                 <li>React</li>
                 <li>HTML</li>
                 <li>CSS (inc. Tailwind and Bootstrap5)</li>
-                <li>Visual Studio Code & Visual Studio 2022</li>
+                <li>Visual Studio Code &amp; Visual Studio 2022</li>
                 <li>Microsoft: Word and Excel</li>
               </ul>
             </div>

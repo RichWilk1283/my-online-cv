@@ -17,8 +17,8 @@ function Profile() {
             Hi, my name is Richard Wilkinson
           </h1>
           <h3 className="font-extralight mb-4">
-            Aspiring to move career's into the exciting world of IT & Software
-            development.
+            Aspiring to move career&apos;s into the exciting world of IT &amp;
+            Software development.
           </h3>
           <h4 className="font-bold mb-2">This is my story so far...</h4>
           <p className="mb-3">
@@ -48,7 +48,7 @@ function Profile() {
           <p>
             <span className="font-bold">And finally now,</span> enthusiastic,
             curious and full of transferable skills, passionate about forging a
-            new career in the I.T. & software development tech world. I have
+            new career in the I.T. &amp; software development tech world. I have
             fuelled my ambitions by completing the Code: Cumbria boot camp
             course whilst also using resources such as Codecademy, Udemy,
             documentation sites to nurture my appetite to move into a role where

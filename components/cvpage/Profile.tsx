@@ -18,7 +18,7 @@ function Profile() {
           previous experiences have made me into a proactive thinker and natural
           problem solver, so I have created several projects aiming to include
           other aspects studied, such as SOLID principles, best practices,
-          responsive design, SQL and database’s.
+          responsive design, SQL and database&apos;s.
         </p>
       </div>
     </div>

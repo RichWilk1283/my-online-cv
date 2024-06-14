@@ -36,7 +36,7 @@ function ProjectCard({
       });
     });
     setImageURLS(imgUrls);
-  }, []);
+  }, [images]);
 
   return (
     <div className="w-11/12 md:h-full p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40 my-3">
