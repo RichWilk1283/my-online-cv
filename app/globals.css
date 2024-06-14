@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .bkgroundimg {
-  background-image: url("/images/background.png");
+  /* background-image: url("/images/background.png"); */
+  background-image: var(--background-image);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
