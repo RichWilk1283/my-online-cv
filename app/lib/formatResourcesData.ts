@@ -18,11 +18,5 @@ export const formatResourcesData = (fetchedData: any) => {
     formattedData.push(resource);
   });
 
-  // const learningResourcesData = formattedData.filter(
-  //   (a) => a.category === "Learning"
-  // );
-
-  // return learningResourcesData;
-
   return formattedData;
 };
