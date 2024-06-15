@@ -79,13 +79,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-        env:
-          NEXT_PUBLIC_APPWRITE_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_APPWRITE_PROJECT_ID}}
-          NEXT_PUBLIC_BUCKET_ID: ${{ secrets.NEXT_PUBLIC_BUCKET_ID}}
-          NEXT_PUBLIC_DATABASE_ID: ${{ secrets.NEXT_PUBLIC_DATABASE_ID}}
-          NEXT_PUBLIC_EXPERIENCE_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_EXPERIENCE_COLLECTION_ID}}
-          NEXT_PUBLIC_PROJECTS_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_PROJECTS_COLLECTION_ID}}
-          NEXT_PUBLIC_RESOURCES_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_RESOURCES_COLLECTION_ID}}
 
   # Deployment job
   deploy:
@@ -98,3 +91,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          NEXT_PUBLIC_APPWRITE_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_APPWRITE_PROJECT_ID}}
+          NEXT_PUBLIC_BUCKET_ID: ${{ secrets.NEXT_PUBLIC_BUCKET_ID}}
+          NEXT_PUBLIC_DATABASE_ID: ${{ secrets.NEXT_PUBLIC_DATABASE_ID}}
+          NEXT_PUBLIC_EXPERIENCE_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_EXPERIENCE_COLLECTION_ID}}
+          NEXT_PUBLIC_PROJECTS_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_PROJECTS_COLLECTION_ID}}
+          NEXT_PUBLIC_RESOURCES_COLLECTION_ID: ${{ secrets.NEXT_PUBLIC_RESOURCES_COLLECTION_ID}}
