@@ -13,12 +13,16 @@ function Profile() {
           className="rounded-full"
         />
         <div className="p-2">
-          <h1 className="font-bold md:text-xl">Hi, i'm Richard Wilkinson</h1>
+          <h1 className="font-bold md:text-xl">
+            Hi, i&apos;m Richard Wilkinson
+          </h1>
           <h3 className="font-extralight mb-4">
             Aspiring to move career&apos;s into the exciting and ever changing
             world of IT &amp; Software development.
           </h3>
-          <h4 className="font-bold mb-2">Who I am and whats made me, me...</h4>
+          <h4 className="font-bold mb-2">
+            Who I am and what&apos;s made me, me...
+          </h4>
           <p className="mb-3">
             After leaving school, I planned to use my natural aptitude and
             curiousity in tech to forge a I.T. career. To start this off I
