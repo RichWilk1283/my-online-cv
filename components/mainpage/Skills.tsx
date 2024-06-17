@@ -33,6 +33,7 @@ function Skills() {
                 <li>Team player</li>
                 <li>Self driven</li>
                 <li>Hard working ethic</li>
+                <li>Highly Adaptable</li>
               </ul>
             </div>
           </div>
