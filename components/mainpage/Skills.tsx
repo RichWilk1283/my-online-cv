@@ -6,7 +6,7 @@ function Skills() {
       <section className="main-section">
         <div className="flex flex-col w-full">
           <p className="text-center">
-            Below are a few key skills I have acquired either via self-paced
+            Below are a few key skills I have acquired. Either via self-paced
             learning, courses or work and life experience.
           </p>
           <div className="flex flex-col md:grid md:grid-cols-2 text-center my-4 gap-3">

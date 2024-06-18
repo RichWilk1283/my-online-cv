@@ -25,38 +25,37 @@ function Profile() {
           </h4>
           <p className="mb-3">
             After leaving school, I planned to use my natural aptitude and
-            curiousity in tech to forge a I.T. career. To start this off I
-            enrolled in an NVQ in Information Technology. This was perfect for
-            me with one day per week learning in the training center and 4 days
-            actually working for a real company doing real work. After I
-            fininshed my NVQ I was offered a full time job with the company I
-            was placed with. This gave me some highly desired independance
+            curiosity in tech to forge a I.T. career. To start this off I
+            enrolled in an Information Technology NVQ. With one day per week
+            learning in the training centre and 4 days working for a real
+            company doing real work. I loved this style of learning and working.
+            After I finished my NVQ I secured a full time job with the company I
+            got placed with. This gave me some highly desired independence
             earning my own money.
           </p>
           <p className="mb-3">
             My career ambitions soon propelled me to chase management
-            progression within the companies I worked for, my best experience
-            came from working at British Gas, where I become one of the youngest
-            managers. At an early age myself and my wife decided to start a
-            family and that soon become a huge part of my life and a point of
-            pride. Its at this point my focus naturally shifted to my family and
-            I made several work choices which were driven by getting the best
-            work life balance for the family. I went to work at the family
-            business for several years, then we made the massive decision to buy
-            the Dalkeith Guest House and move 190 miles from my home town to the
-            beautiful Lake District. After spending the last 9 years, building
-            up the business and renovating the property I feel gravity pulling
-            back to my original ambitions of the I.T. and Software Developement
-            world.
+            progression. My best experience came from working for British Gas,
+            where I become one of the youngest managers. At an early age myself
+            and my wife decided to start a family and that soon become a huge
+            part of my life and a point of pride. At this point my focus shifted
+            to my family. I made several work choices which focused on getting
+            the best work life balance for the family. The biggest choice's was
+            going work at the family business and our move to the Lake District.
+            The decision to buy a guest house 190 miles from my home town to the
+            beautiful Lake District, was huge and exciting choice. After
+            spending 9 years building up the business and renovating the
+            property. I now feel gravity pulling me back to my original
+            ambitions of the I.T. and Software Development world.
           </p>
           <p>
             <span className="font-bold">And finally now,</span> enthusiastic,
-            curious and full of transferable skills, passionate about forging a
-            new career. I have fuelled my ambitions by completing the Code:
-            Cumbria boot camp course whilst also using resources such as
-            Codecademy, Udemy, documentation sites to nurture my appetite to
-            move into a role where I can use my strong sense of excellence,
-            personal dedication to grow and challenge myself.
+            curious and full of transferable skills. I am passionate about
+            forging a new career. I have fuelled my ambitions by completing the
+            Code: Cumbria boot camp course. Also using resources such as
+            Codecademy, Udemy, documentation sites to nurture my appetite. My
+            aim is to move into a role where I can use my strong sense of
+            excellence, personal dedication to grow and challenge myself.
           </p>
         </div>
       </section>
