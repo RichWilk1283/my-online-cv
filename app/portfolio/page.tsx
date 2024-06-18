@@ -4,7 +4,13 @@ function portfolio() {
   return (
     <main className="flex flex-col items-center">
       <h1 className="text-2xl font-bold">Portfolio page</h1>
-      <p>Add some words here about the page contents.</p>
+      <p className="text-center">
+        Here are some projects I have enjoyed working on. Most of my projects
+        have been created to practice what I have learned. <br />
+        <span className=" text-xs md:text-sm font-light">
+          The source code can be found on GitHub by clicking on them.
+        </span>
+      </p>
       <PortfolioBoard />
     </main>
   );
