@@ -40,11 +40,11 @@ function Profile() {
             and my wife decided to start a family and that soon become a huge
             part of my life and a point of pride. At this point my focus shifted
             to my family. I made several work choices which focused on getting
-            the best work life balance for the family. The biggest choice's was
-            going work at the family business and our move to the Lake District.
-            The decision to buy a guest house 190 miles from my home town to the
-            beautiful Lake District, was huge and exciting choice. After
-            spending 9 years building up the business and renovating the
+            the best work life balance for the family. The biggest choices was
+            going to work at the family business and our move to the Lake
+            District. The decision to buy a guest house 190 miles from my home
+            town to the beautiful Lake District, was huge and exciting choice.
+            After spending 9 years building up the business and renovating the
             property. I now feel gravity pulling me back to my original
             ambitions of the I.T. and Software Development world.
           </p>
