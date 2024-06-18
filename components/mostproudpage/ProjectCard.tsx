@@ -44,15 +44,15 @@ function ProjectCard() {
 
   return (
     <div className="proudof-card">
-      <h3 className="font-bold">My most proud of project:</h3>
+      <h3 className="font-bold">Project:</h3>
       <p className="font-light w-11/12 lg:w-1/2">
         My final project for the Code: Cumbria boot camp course, marked a key
-        moment for me. Prior to the boot camp, I had committed a lot of time to
-        learning under my own direction and practicing with little projects
-        mainly in C# and .NET frameworks, so at the start of the boot camp I was
-        a little aprehensive about learning new langauges and frameworks while
-        also doing this at the tutors pace. Well, I loved it all. The challenge
-        and satisfaction from implamenting what I had learned.
+        moment for me. Before the boot camp I had committed a lot of time to
+        learning under my own direction. Practicing with little projects using
+        C# and .NET frameworks. At the start of the boot camp, I was a little
+        apprehensive about learning new languages at the tutors pace. Well, I
+        loved every minute of it. The challenge and satisfaction from
+        implementing what I have learned, has motivated me.
       </p>
       <div className="w-11/12 p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40 my-3">
         {proudOfProject ? (

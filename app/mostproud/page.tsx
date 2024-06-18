@@ -7,9 +7,9 @@ function mostproud() {
     <div className="text-white flex flex-col items-center text-center">
       <h3 className="text-3xl font-bold mt-4">Most Proud Of</h3>
       <p className="mb-4">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, velit
-        possimus quam fugit illo quod quos dolores, fuga optio magnam iusto
-        quisquam officia, aut repudiandae. Eos, tempore ab! Possimus, non.
+        I have many things I am proud of, mostly my family. But below are two
+        things I believe make me well suited to a career in tech and the
+        changing world.
       </p>
       <div className="main-container">
         <ExperienceCard />
