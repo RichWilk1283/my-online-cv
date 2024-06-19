@@ -10,7 +10,7 @@ function Profile() {
           src={profilePic}
           alt="Profile picture"
           width={300}
-          className="rounded-full"
+          className="rounded-xl mx-3"
         />
         <div className="p-2">
           <h1 className="font-bold md:text-xl">

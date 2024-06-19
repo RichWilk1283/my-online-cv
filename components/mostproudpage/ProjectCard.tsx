@@ -52,7 +52,7 @@ function ProjectCard() {
         C# and .NET frameworks. At the start of the boot camp, I was a little
         apprehensive about learning new languages at the tutors pace. Well, I
         loved every minute of it. The challenge and satisfaction from
-        implementing what I have learned, has motivated me.
+        implementing what I have learned has motivated me.
       </p>
       <div className="w-11/12 p-3 rounded-xl bg-blue-950/20 hover:bg-blue-950/40 my-3">
         {proudOfProject ? (
