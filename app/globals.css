@@ -10,7 +10,7 @@
 }
 
 .navbarlink {
-  @apply bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold hover:bg-slate-200/10;
+  @apply bg-slate-200 border-2 border-gray-500 px-2 rounded-2xl font-bold hover:text-white hover:bg-slate-200/10;
 }
 
 .navbarlinkmenu {
