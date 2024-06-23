@@ -5,7 +5,7 @@ function Skills() {
     <div className="main-container">
       <section className="main-section">
         <div className="flex flex-col w-full">
-          <p className="text-center">
+          <p className="text-lg text-center">
             Below are a few key skills I have acquired. Either via self-paced
             learning, courses or work and life experience.
           </p>

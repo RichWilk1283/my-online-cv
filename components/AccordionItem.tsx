@@ -11,9 +11,9 @@ function AccordionItem({ title, content }: AccordionItemProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden mt-1">
       <button
-        className="flex items-center mx-auto md:mx-0 text-white"
+        className="flex pl-2 items-center text-white"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="hover:text-blue-500 text-lg">{title}</span>
@@ -28,7 +28,7 @@ function AccordionItem({ title, content }: AccordionItemProps) {
           isOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
-        <div className="p-3 text-white text-sm">{content}</div>
+        <div className="px-2 pb-3 text-white text-sm">{content}</div>
       </div>
     </div>
   );
