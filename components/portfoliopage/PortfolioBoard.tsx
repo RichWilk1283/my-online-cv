@@ -24,18 +24,20 @@ function ProjectCard({
   images,
   ...props
 }: CodingProject) {
-  const [imageURLS, setImageURLS] = useState(Array<string>);
+  const [imageURLS, setImageURLS] = useState<string[]>([]);
+  const [imageUrlsSize, setImageUrlsSize] = useState<boolean>(true);
 
   useEffect(() => {
     const imgUrls: string[] = [];
 
     images.map((img: string) => {
-      const url = getImgUrl(img);
+      const url: Promise<string> = getImgUrl(img);
       url.then((data) => {
         imgUrls.push(data);
       });
     });
     setImageURLS(imgUrls);
+    images.length <= 2 ? setImageUrlsSize(false) : setImageUrlsSize(true);
   }, [images]);
 
   return (
@@ -48,7 +50,7 @@ function ProjectCard({
         <div>
           <p className="font-bold">{title}</p>
           <ul className="grid grid-cols-2">
-            {techstack.map((data, index: number) => (
+            {techstack.map((data: string, index: number) => (
               <li className="font-light text-xs" key={index}>
                 ⫸ {data}
               </li>
@@ -56,7 +58,13 @@ function ProjectCard({
           </ul>
           <p className="font-thin my-2">{description}</p>
         </div>
-        <div className="grid grid-cols-2 gap-2">
+        <div
+          className={
+            imageUrlsSize
+              ? "grid grid-cols-2 gap-2 items-center"
+              : "flex flex-col gap-2 items-center"
+          }
+        >
           {imageURLS.map((imgUrl: string, index: number) => (
             <Image
               key={index}
